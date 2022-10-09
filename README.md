@@ -1,16 +1,38 @@
 
-<h1 align="center">BCT_ia2_python_blockchain_implementation</h1>
+<h1 align="center">BCT IA2 python blockchain implementation</h1>
 <div align="center">
   
   <h2> To implement a  blockchain using python programming language and wrap it inside an API using FastAPI.</h2>
-<h3>
-  Names: Tanmay Tete, Priyal Babel and Hinal Pujara<br>
-  Roll Nos.: 1911060, 1911041 and 1911042 <br>
-  Course: Blockchain Technology <br>
-  College: KJ Somaiya college of engineering<br><br>
-</h3>
+  
+  <table>
+  <tr>
+    <td>Contributors:</td>
+    <td>Tanmay Tete</td>
+    <td>Priyal babel</td>
+    <td>Hinal Pujara</td>
+  </tr>
+  <tr>
+    <td>Roll No:</td>
+    <td>1911060</td>
+    <td>1911041</td>
+    <td>1911042</td>
+  </tr>
+  <tr>
+    <td>Course:</td>
+    <td colspan="3">Blockchain Technology</td>
+  </tr>
+   <tr>
+    <td>Faculty:</td>
+    <td colspan="3">Dr. Deepak Sharma</td>
+  </tr>
+  <tr>
+    <td>College:</td>
+    <td colspan="3"> K. J. Somaiya college of engineering</td>
+  </tr>
+</table>
 </div>
 
+## Techstack
 <div align="center">
 
 
@@ -40,29 +62,27 @@ To wrap this blockchain in an API using FastAPI.
 </div>  
 
 
-## <b>To run this project :</b>
+## To run this project :
 
-### Clone the project -
+Clone the project -
 ```
-  $ git clone https://github.com/dishaShah01/RocketLaunchSimulation.git
+  $ git clone https://github.com/tancot85/bct_ia2_python_blockchain_implementation.git
 ```
- 
+Install all the requirements -
+```
+ $ pip install uvicorn fastapi
+```
 
 Start the project, navigate to the project directory on the terminal;
- ### Run the script -
- for linux/mac :
-```
-  $ python main.py
-```  
- for windows :
-``` 
-  $ python main.py
-```
+## Run the script -
 
+```
+  $ uvicorn main:app --reload
+```  
 
 ---
 
-#### <div align="center">If you have any improvements create an issue and if you want you can also make a pull request for the same. </div>
+#### <div align="center">If you have any improvements, create an issue and if you want you can also make a pull request for the same. </div>
 
 ---
 
